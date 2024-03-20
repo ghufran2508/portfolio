@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Muhammad Ghufran Ali",
   nickname: "ghoofy",
   subTitle:
-    "I'm a dedicated full-stack developer with a deep passion for problem-solving and a relentless drive to learn. I'm always seeking out new challenges and opportunities to expand my skills. My goal is to create impactful, end-to-end solutions that are not only technically sound but also contribute positively to society. I thrive in dynamic environments where I can collaborate with others to build sustainable and scalable systems that make a real difference.",
+    "I'm a dedicated full-stack developer with a deep passion for problem-solving and a relentless drive to learn. I'm always seeking out new challenges and opportunities to expand my skills.",
   resumeLink:
     "https://drive.google.com/file/d/1cKHLCcBc9GkgKdElGYoHd_aO5hOm-g3W/view?usp=drive_link",
   portfolio_repository: "https://github.com/ghufran2508/portfolio",
