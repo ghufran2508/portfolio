@@ -5,8 +5,10 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import useTypewriter from "../../hooks/typingEffect";
 
 export default function Greeting(props) {
+  const desc = useTypewriter(greeting.subTitle, 30);
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -26,7 +28,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {desc}
               </p>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">

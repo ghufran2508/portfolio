@@ -23,8 +23,9 @@ const greeting = {
   logo_name: "Muhammad Ghufran Ali",
   nickname: "ghoofy",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:"https://drive.google.com/file/d/1cKHLCcBc9GkgKdElGYoHd_aO5hOm-g3W/view?usp=drive_link",
+    "I'm a dedicated full-stack developer with a deep passion for problem-solving and a relentless drive to learn. I'm always seeking out new challenges and opportunities to expand my skills. My goal is to create impactful, end-to-end solutions that are not only technically sound but also contribute positively to society. I thrive in dynamic environments where I can collaborate with others to build sustainable and scalable systems that make a real difference.",
+  resumeLink:
+    "https://drive.google.com/file/d/1cKHLCcBc9GkgKdElGYoHd_aO5hOm-g3W/view?usp=drive_link",
   portfolio_repository: "https://github.com/ghufran2508/portfolio",
   githubProfile: "https://github.com/ghufran2508",
 };
@@ -111,7 +112,6 @@ const skills = {
             color: "#CB3837",
           },
         },
-        
       ],
     },
     {
@@ -153,7 +153,7 @@ const skills = {
           },
         },
       ],
-    }
+    },
   ],
 };
 
@@ -192,7 +192,7 @@ const degrees = {
         "⚡ Apart from this, I have done courses on Full Stack Development.",
       ],
       website_link: "https://pucit.edu.pk/",
-    }
+    },
   ],
 };
 
@@ -220,8 +220,7 @@ const certifications = {
       title: "Problem Solving (Basic)",
       subtitle: "- Hackerrank",
       logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.hackerrank.com/certificates/76fd7f0affeb",
+      certificate_link: "https://www.hackerrank.com/certificates/76fd7f0affeb",
       alt_name: "freeCodeCamp",
       color_code: "#0C9D5899",
     },
@@ -263,8 +262,7 @@ const experience = {
           logo_path: "infostack_tech_logo.jpg",
           duration: "June 2022 - ",
           location: "Lahore, Pakistan",
-          description:
-            "",
+          description: "",
           color: "#0879bf",
         },
       ],
@@ -293,8 +291,7 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-  ],
+  data: [],
 };
 
 // Contact Page
