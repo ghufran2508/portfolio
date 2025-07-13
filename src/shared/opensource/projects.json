@@ -1,1 +1,12 @@
-{"data":[]}
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Windyflo",
+      "description": "Build custom AI pipelines* without complicated coding or configurations. WindyFlo offers simple drag-and-drop interface to turn your AI ideas into reality.",
+      "url": "https://www.windyflo.com/",
+      "createdAt": "2024-08-01T00:00:00.000Z",
+      "languages": []
+    }
+  ]
+}

@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I'm a dedicated full-stack developer with a deep passion for problem-solving and a relentless drive to learn. I'm always seeking out new challenges and opportunities to expand my skills.",
   resumeLink:
-    "https://drive.google.com/file/d/1cKHLCcBc9GkgKdElGYoHd_aO5hOm-g3W/view?usp=drive_link",
+    "https://drive.google.com/file/d/1N_CWlYTpBlVYcFzy5E8Myvg_3WBjPZR3/view?usp=drive_link",
   portfolio_repository: "https://github.com/ghufran2508/portfolio",
   githubProfile: "https://github.com/ghufran2508",
 };
@@ -110,6 +110,14 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
+          },
+        },
+
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:next",
+          style: {
+            color: "#61DAFB",
           },
         },
       ],
@@ -236,15 +244,43 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
+      title: "Remote",
+      work: true,
+      experiences: [
+        {
+          title: "Software Engineer",
+          company: "HamadaLabs",
+          company_url: "https://www.hamadalabs.com/",
+          logo_path: "hamadalabs.png",
+          duration: "March 2025 - ",
+          location: "Remote",
+          description:
+            "Architect, Maintain and integrated new features in windyflo. Added Team collaboration features using ReactFlow. Integrated payment sdk using TossPayment and added custom MCP server.",
+          color: "#0879bf",
+        },
+      ],
+    },
+    {
       title: "Work",
       work: true,
       experiences: [
+        {
+          title: "Senior Software Developer",
+          company: "Abacus",
+          company_url: "https://abacus-global.com/",
+          logo_path: "abacus.webp",
+          duration: "September 2024 - ",
+          location: "Lahore, Pakistan",
+          description:
+            "Working on recreating in-house apps. Developed and integrated apps using latest technologies such as React, Node and Mongodb. Also created macros in C# using Selenium for webscraping. Write custom scripts for data extraction from pdf/images.",
+          color: "#0879bf",
+        },
         {
           title: "Full Stack Developer",
           company: "Infostack Tech",
           company_url: "http://www.infostacktech.com/",
           logo_path: "infostack_tech_logo.jpg",
-          duration: "June 2023 - ",
+          duration: "June 2023 - Septemper 2024",
           location: "Lahore, Pakistan",
           description:
             "I am working on ai recruitment product. The projects involve artificial intelligence for process improvements and for significantly enhancing the recruitment process. Our goal is to make AI system which scales and removes human dependency on technical or non-technical interviews as much as possible.",
@@ -304,13 +340,12 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    subtitle: "lahore, Punjab, Pakistan",
+    locality: "Lahore",
+    country: "PK",
+    region: "Punjab",
+    postalCode: "54000",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
